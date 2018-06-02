@@ -2,7 +2,7 @@ import re
 from models import Condition, ConditionalBlock, Block, FunctionBlock, Node, GlobalBlock
 
 graph = Node()
-sample = "sample_inputs/test 2.py"
+sample = "test 2.py"
 
 no_of_tabs = 0
 identation_expression = r"^([ ]+)?"
